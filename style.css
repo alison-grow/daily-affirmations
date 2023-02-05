@@ -1,6 +1,6 @@
 @font-face {
     font-family: paper;
-    src: url('./font/Specialisation.ttf');
+    src: url('./font/AdrianFontV4.ttf');
 }
 
 body {
@@ -32,7 +32,7 @@ body {
     padding: 30px;
     font-family: 'paper', cursive;
     color: white;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 200;
 }
 
@@ -52,23 +52,24 @@ body {
 }
 
 .aff-display {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'paper', cursive;
     color: #BB5F5F;
     text-align: center;
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+    letter-spacing: -1px;
 }
 
 .aff-btn {
     height: 50px;
-    width: 250px;
-    font-size: 30px;
+    width: 20%;
+    font-size: 23px;
     color: white;
     background-color: #BB5F5F;
     font-family: 'paper', cursive;
-    margin-left: 41%;
+    margin-left: 40%;
     margin-top: 50px;
     border: none;
     border-radius: 10px;
