@@ -1,0 +1,86 @@
+@font-face {
+    font-family: paper;
+    src: url('./font/Specialisation.ttf');
+}
+
+body {
+    background-image: url('https://dl.glitter-graphics.com/pub/2958/2958329nn482l3y9z.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    cursor: url('https://cur.cursors-4u.net/nature/nat-10/nat997.cur'), auto !important;
+}
+
+
+
+::selection{
+	background-color: #ffa1dd;
+    color: white;
+}
+/* BEGINNING OF HEADER */
+
+.header-container {
+    width: 50%;
+    height: 120px;
+    background-color: #BB5F5F;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.header-h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'paper', cursive;
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+/* END OF HEADER */
+/* BEGINNING OF BODY */
+
+.affirmation-container {
+    width: 75%;
+    height: 250px;
+    border: 6px solid #BB5F5F;
+    background-color: #FCC7B5;
+    margin: auto;
+    display: flex;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.aff-display {
+    font-size: 50px;
+    font-family: 'paper', cursive;
+    color: #BB5F5F;
+    text-align: center;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aff-btn {
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+    color: white;
+    background-color: #BB5F5F;
+    font-family: 'paper', cursive;
+    margin-left: 41%;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: url('https://cur.cursors-4u.net/nature/nat-10/nat997.cur'), auto !important;
+}
+
+.aff-btn:hover {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.aff-btn:active {
+    color: #BB5F5F;
+    background-color: white;
+}
+/* END OF BODY */
