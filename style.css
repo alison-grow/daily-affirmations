@@ -1,6 +1,6 @@
 @font-face {
     font-family: paper;
-    src: url('./font/iknowaghost.ttf');
+    src: url('./font/Heartfullie-Regular.otf');
 }
 
 body {
@@ -32,8 +32,9 @@ body {
     padding: 30px;
     font-family: 'paper', cursive;
     color: white;
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 200;
+    letter-spacing: 2px;
 }
 
 /* END OF HEADER */
@@ -52,23 +53,25 @@ body {
 }
 
 .aff-display {
-    font-size: 45px;
+    font-size: 55px;
     font-family: 'paper', cursive;
     color: #BB5F5F;
     text-align: center;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    letter-spacing: -1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+    font-weight: 200;
 }
 
 .aff-btn {
     height: 50px;
     width: 20%;
-    font-size: 23px;
+    font-size: 25px;
     color: white;
     background-color: #BB5F5F;
     font-family: 'paper', cursive;
+    letter-spacing: 2px;
     margin-left: 40%;
     margin-top: 50px;
     border: none;
@@ -87,6 +90,6 @@ body {
 
 .song {
     margin: 50px auto 30px auto;
-    border: 1px solid white;
+    border: 1px solid #BB5F5F;
 }
 /* END OF BODY */
